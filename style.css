@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(250 255 184);}
+    .container {
+        text-align: center;
+    }
+
+    
+
+    .header-text{
+        color: rgb(225, 152, 152);
+        font-weight: bold;
+        font-family: 'nunito';
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 50px;
+
+    }
+    .gif_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #noButton {
+        position: absolute;
+        margin-left: 120px;
+        transition: 0.5s;
+    }
+    
+    #yesButton {
+        position: absolute;
+        left: 550px; /* Adjust the left margin for the Yes button as needed */
+        bottom: px; /* Adjust the bottom margin for the Yes button as needed */
+    }
+    
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.btn{
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+@media only screen and (max-width:414px) and (max-height:736px)
+{
+    body{
+        height:90vh;
+    
+    }
+    .header-text{
+        font-size: 28px;
+    
+    }
+    img{
+        height:60vh;    }
+        .btn{
+            padding:15px 25px;
+            font-size: 14px;
+        }
+}

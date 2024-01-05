@@ -1,0 +1,20 @@
+body {
+display: flex;
+justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(250, 255, 184);}
+    .header-text{
+        color: rgb(221, 99, 99);
+        font-weight: bold;
+        font-family: 'nunito';
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+    .gif-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
